@@ -1,0 +1,71 @@
+/*
+
+White: FFF
+Black: 222
+Turquoise: 08AAAA
+Purple: 4D0B47
+Light Purple: 77126F
+Dark Purple: 311423
+Gray: 999
+
+*/
+
+html {
+    color: #222;
+}
+
+nav {
+    background-color: #FFF;
+    border-color: #08AAAA;
+}
+
+#navigation a:hover {
+    color: #08AAAA;
+}
+
+h2 {
+    color: rgb(255, 255, 255, 75%);
+}
+
+header a {
+    color: rgb(255, 255, 255, 75%);
+    background-color: #4D0B47;
+}
+
+header a:hover {
+    color: #FFF;
+    background-color: #77126F;
+}
+
+main {
+    background-color: #FFF;
+}
+
+#game-list img {
+    border-color: transparent;
+}
+
+#game-list img:hover {
+    border-color: #08AAAA;
+}
+
+#about-us-section {
+    background-color: #311423;
+    color: #FFF;
+}
+
+#team img {
+    border-color: #77126F;
+}
+
+#contact-list li a:hover {
+    color: #77126F;
+}
+
+footer {
+    background-color: #311423;
+}
+
+footer p {
+    color: #999;
+}

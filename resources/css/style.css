@@ -1,0 +1,267 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    font-size: 0.0753vw;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+i {
+    transition: none;
+}
+
+.pointer {
+    transform: translateY(-150rem);
+}
+
+/* Navigation */
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 100rem;
+    border-bottom: 4rem solid;
+    display: flex;
+    align-items: center;
+    padding: 0 150rem;
+    z-index: 100;
+}
+
+#logo {
+    height: 60rem;
+    width: auto;
+}
+
+h1 {
+    font-size: 50rem;
+}
+
+#navigation {
+    display: flex;
+    font-size: 17rem;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+#navigation li {
+    margin-left: 20rem;
+}
+
+/* Header */
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(34, 53, 58);
+}
+
+#background video {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    opacity: 20%;
+}
+
+h2 {
+    font-size: 50rem;
+    font-weight: 300;
+    margin-bottom: 50rem;
+}
+
+header a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17rem;
+    padding: 10rem 20rem;
+    border-radius: 20rem;
+}
+
+/* Main */
+
+section {
+    padding: 100rem 100rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50rem;
+    font-weight: 300;
+    margin-bottom: 100rem;
+}
+
+/* Games */
+
+#game-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#game-list img {
+    border: 4rem solid;
+    border-radius: 4rem;
+    margin-bottom: 5rem;
+}
+
+#game-list img:hover {
+    border-width: 4rem;
+}
+
+#game-list li > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250rem;
+    min-width: 150rem;
+    margin: 0 50rem 50rem;
+}
+
+#game-list h4 {
+    font-size: 20rem;
+    margin-bottom: 5rem;
+}
+
+#game-list p {
+    font-size: 15rem;
+    text-align: justify;
+}
+
+/* About Us */
+
+#about-us-section h3 {
+    margin-bottom: 50rem;
+}
+
+#about-us-section > p {
+    font-size: 30rem;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 100rem;
+}
+
+#team {
+    display: flex;
+    flex-direction: column;
+    width: 800rem;
+    margin: auto;
+}
+
+#team > div {
+    display: flex;
+    margin-bottom: 50rem;
+}
+
+#team img {
+    height: 150rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 20rem;
+    border: 4rem solid;
+}
+
+#team h4 {
+    font-size: 30rem;
+    margin-bottom: 10rem;
+}
+
+#team p {
+    font-size: 20rem;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+.reversed img {
+    margin-left: 20rem;
+    margin-right: 0 !important;
+}
+
+.reversed p {
+    text-align: right;
+}
+
+.reversed h4 {
+    text-align: right;
+}
+
+/* Contact */
+
+#contact-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25rem;
+}
+
+#contact-list li {
+    margin-bottom: 20rem;
+}
+
+#contact-list i {
+    margin-right: 10rem;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200rem;
+}
+
+footer img {
+    height: 50rem;
+    width: auto;
+    margin-right: 20rem;
+}
+
+footer p {
+    font-size: 20rem;
+}
+
+/* JavaScript */
+
+.smallBar {
+    height: 50rem;
+}
+
+.smallLogo {
+    height: 50rem !important;
+}
